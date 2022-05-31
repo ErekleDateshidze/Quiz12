@@ -1,29 +1,29 @@
-country = {
-    name: "შვეიცარია",
-    languages: ["გერმანული", "ფრანგული", "იტალიური"],
-    capital: {
-        name: "ბერნი",
-        population: 123123
-    },
-    cities: [
-        { name: "ცურიხი", population: 31232131 },
-        { name: "ჟენევა", population: 12313 },
-        { name: "რამე", population: 13123211231 }
-    ]
-}
+// country = {
+//     name: "შვეიცარია",
+//     languages: ["გერმანული", "ფრანგული", "იტალიური"],
+//     capital: {
+//         name: "ბერნი",
+//         population: 123123
+//     },
+//     cities: [
+//         { name: "ცურიხი", population: 31232131 },
+//         { name: "ჟენევა", population: 12313 },
+//         { name: "რამე", population: 13123211231 }
+//     ]
+// }
 
-document.write("შვეიცარიის ოფიციალური ენებია" + ": ");
-for (var i = 0; i < country.languages.length; i++) {
-    document.write(country.languages[i] + " ");
-}
+// document.write("შვეიცარიის ოფიციალური ენებია" + ": ");
+// for (var i = 0; i < country.languages.length; i++) {
+//     document.write(country.languages[i] + " ");
+// }
 
-document.write("</br>" + "შვეიცარიის დედაქალაქია" + " :");
-document.write(country.capital.name + " " + country.capital.population)
+// document.write("</br>" + "შვეიცარიის დედაქალაქია" + " :");
+// document.write(country.capital.name + " " + country.capital.population)
 
-document.write("</br>" + "ქალაქები" + ": ");
-for (var i = 0; i < country.cities.length; i++) {
-    document.write(country.cities[i].name + " " + country.cities[i].population + " ");
-}
+// document.write("</br>" + "ქალაქები" + ": ");
+// for (var i = 0; i < country.cities.length; i++) {
+//     document.write(country.cities[i].name + " " + country.cities[i].population + " ");
+// }
 
 
 film = {
@@ -41,15 +41,19 @@ film = {
 }
 
 
-document.write("Language Options" + ":");
-for (var i = 0; i < film.languages.length; i++) {
-    document.write(film.languages[i] + " ");
-}
+// document.write("</br>" + "Language Options" + ":");
+// for (var i = 0; i < film.languages.length; i++) {
+//     document.write(film.languages[i] + " ");
+// }
 
-document.write("</br>" + "Grand Premiere" + ":");
-document.write(film.premiere.name + " " + film.premiere.attendance);
+// document.write("</br>" + "Grand Premiere" + ":");
+// document.write(film.premiere.name + " " + film.premiere.attendance);
 
-document.write("</br>" + "Movies" + ":");
-for (var i = 0; i < film.movies.length; i++) {
-    document.write(film.movies[i].name + "-" + film.movies[i].imdb + " ");
-}
+// document.write("</br>" + "Movies" + ":");
+// for (var i = 0; i < film.movies.length; i++) {
+//     document.write(film.movies[i].name + "-" + film.movies[i].imdb + " ");
+// }
+
+
+
+
