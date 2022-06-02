@@ -41,6 +41,20 @@ film = {
 }
 
 
+for (var i = 0; i < film.movies.length - 2; i++) {
+    document.getElementById("movie1").innerHTML = film.movies[i].name + ": " + film.movies[i].imdb;
+}
+for (var i = 0; i < film.movies.length - 1; i++) {
+    document.getElementById("movie2").innerHTML = film.movies[i].name + ": " + film.movies[i].imdb;
+}
+
+for (var i = 0; i < film.movies.length; i++) {
+    document.getElementById("movie3").innerHTML = film.movies[i].name + ": " + film.movies[i].imdb;
+}
+
+
+
+
 // document.write("</br>" + "Language Options" + ":");
 // for (var i = 0; i < film.languages.length; i++) {
 //     document.write(film.languages[i] + " ");
